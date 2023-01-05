@@ -1,77 +1,101 @@
 header {
-width:80% ;    height: 150px ;
-font-family: Verdana;
-font-size: 20px;
-background-color: rgb(152, 188, 230)   
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+background-color: lightblue;  
+padding: 5px;
+width: 80%;  
+min-height: 110px   
+}
+ul a{
+color: white;
+text-decoration: none;
+}
+li {
+display: inline-block;
+height: 24px;
+width: 160px;
+padding: 12px;
+text-align: center;
+color: white;
+border-left: 3px solid rgb(128, 0, 70);
+border-left: 2px solid rgb(128, 0, 70);
+background-color: darkblue;
+}
+a:hover {
+color: darkmagenta;
+background-color: lightskyblue;
+font-size: 22px;
+text-decoration: none;
+}
+body {
+font-family: Verdana, Geneva, Tahoma, sans-serif; 
+text-align: left;
+padding: 5px;  
+margin-left: 16px;
+margin-right: 16px;  
+background-color: beige;
 }
 footer {
-width:80% ;    height: 150px ;
-background-color: rgb(152, 188, 230) 
+color: lightblue;    
+background-color: darkblue;  
+text-align: left;
+padding: 5px;
+width: 80%;  
+height: 40px
+}
+input[type="text"], input[type="email"], textarea, select, button{
+display: block;
+margin: 20px 0px;
+width: 400px;
+box-sizing: border-box;
+border-radius: 5px; 
+box-shadow: inset 2px 2px 5px lightskyblue;
+}
+textarea{
+height: 200px;
+padding: 5px 4px;
+background-color: lightskyblue;
+opacity: 0.5;
+}
+button:active {
+background-color: darkred;
+color: white;
+border-radius: 6px; 
 }
 h1 {
-text-align: center;    
-color: aliceblue;    
+font-size: 48px;
+color: lightblue;
+}
+caption {
+font-size: 24px;
+color: darkblue;
 }
 table {
-width:80% ;   height: 350px; 
-font-family: Verdana;
-}
-td {
-text-align: center;    
+font-size: 18px;
+width: 800px;
+text-align: left;
+border-collapse: collapse;
+color: whitesmoke;
+background-color: lightskyblue;
 }
 #een {
-color: rgb(0, 255, 76);    
-background-color:  rgb(51, 51, 228)  
+background-color: darkblue;   
+text-align: left;
 }
-#twee {
-background-color:   lightblue
+td {
+padding: 10px 20px;    
 }
-#drie {
-color: beige;
-background-color:rgb(185, 72, 72)  
+h2 {
+font-size: 34px;    
 }
-#vier {
-background-color: rgb(224, 155, 155);    
+div {
+width: 600px;
+height: 360px;
 }
-#vijf {
-color: blue;    
-background-color: rgb(251, 240, 255);    
+p {
+color: darkblue;
 }
-#zes {
-background-color: rgb(217, 228, 228);    
-}
-#zeven {
-color: darkgreen;    
-background-color: beige;    
-}
-#acht {
-background-color: lightgoldenrodyellow;    
-}
-#negen {
-color: lightsalmon ;    
-background-color: rgb(93, 95, 82);    
-}
-#tien {
-background-color: rgb(224, 229, 183);    
-}
-#elf {
-color: darkred;    
-background-color: greenyellow;    
-}
-#twaalf {
-background-color: rgb(177, 222, 135);    
-}
-#dertien {
-color: rgb(223, 214, 214);    
-background-color: brown;    
-}
-#veertien {
-background-color: rgb(233, 124, 142);    
-}
-#vijftien {
-color:rgb(5, 5, 196);    
-background-color: rgb(235, 204, 209) ;    
-}
-#zestien {
-background-color: rgb(197, 149, 177);    
+img {
+float: right;    
+margin-right: 6px;
+margin-left: 10px;
 }
